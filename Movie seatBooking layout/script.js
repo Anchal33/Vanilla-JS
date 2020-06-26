@@ -34,7 +34,7 @@ if(selectedSeats!==null && selectedSeats.length>0){
 }
 
 var movieIndex=localStorage.getItem('movieIndex');
-var price=localStorage.getItem('moviePrice');
+ticketPrice=localStorage.getItem('moviePrice');
 if(movieIndex!==null)
 {
   movie.selectedIndex=movieIndex;
